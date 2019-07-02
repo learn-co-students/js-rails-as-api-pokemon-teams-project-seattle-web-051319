@@ -44,19 +44,6 @@ function addTrainerToPage(trainerObject, htmlElement) {
 }
 
 function addPokemonToTrainer(pokemonCollection, htmlElement) {
-  const li1 = document.createElement('li')
-  const button2 = document.createElement('button')
-  const li2 = document.createElement('li')
-  const button3 = document.createElement('button')
-  const li3 = document.createElement('li')
-  const button4 = document.createElement('button')
-  const li4 = document.createElement('li')
-  const button5 = document.createElement('button')
-  const li5 = document.createElement('li')
-  const button6 = document.createElement('button')
-  const li6 = document.createElement('li')
-  const button7 = document.createElement('button')
-
   for (let pokemon of pokemonCollection) {
     const li = document.createElement('li')
     const button = document.createElement('button')
